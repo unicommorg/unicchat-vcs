@@ -51,7 +51,7 @@ turn:
     udp_port: 3478
     external_tls: true
 keys:
-    APIFB6qLxKJDW7T: 1jH9vBVaFfBwMXDaBcjkQG8d6z5GBhUowsz2VhiDoqe
+    $API_KEY: $API_SECRET
 
 EOF
 
@@ -184,8 +184,8 @@ redis:
     sentinel_addresses: []
     cluster_addresses: []
     max_redirects: null
-api_key: APIFB6qLxKJDW7T
-api_secret: 1jH9vBVaFfBwMXDaBcjkQG8d6z5GBhUowsz2VhiDoqe
+api_key: $API_KEY
+api_secret: $API_SECRET
 ws_url: wss://$VCS_URL
 
 EOF
